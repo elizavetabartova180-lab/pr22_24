@@ -21,6 +21,7 @@
         </Setter>
     </Style>
 
+    
     <Style TargetType="{x:Type Control}" x:Key="BaseBox" BasedOn="{StaticResource BaseBoxItm}">
         <Style.Triggers
     </Style>
