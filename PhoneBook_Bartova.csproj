@@ -16,7 +16,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -143,7 +143,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ClassConnection\ClassConnection.csproj">
+      <Project>{04d5e1ee-784a-4721-818f-12f7e008588d}</Project>
+      <Name>ClassConnection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassModule\ClassModule.csproj">
+      <Project>{94F25EA8-5291-465F-94D9-5A1A879397BE}</Project>
+      <Name>ClassModule</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="img\back.png" />
     <Resource Include="img\calendar.png" />

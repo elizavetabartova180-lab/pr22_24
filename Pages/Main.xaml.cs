@@ -3,6 +3,9 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Animation;
+using ClassConnection;
+using ClassModule;
+
 
 namespace PhoneBook_Bartova.Pages
 {
