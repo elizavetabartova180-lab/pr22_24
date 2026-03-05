@@ -164,5 +164,7 @@ namespace PhoneBook_Bartova.Pages
                 control1.BeginAnimation(ScrollViewer.OpacityProperty, opgridAnimation);
             }
         }
+
+        
     }
 }
